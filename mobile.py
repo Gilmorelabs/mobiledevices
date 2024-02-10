@@ -53,7 +53,7 @@ def run_motors(run_value,ena_SPEED,enb_SPEED,ENAFREQUENCY,ENBFREQUENCY):
 
 
 def fetch_and_run():
-    headers = {'API-Key': 'getyourapifromrrn'}
+    headers = {'API-Key': 'GenerateYourAPi'} #please generate your api from RRN
     while True:
         try:
             response = requests.get('https://remoteresearchnetwork.com/machine/mobiletask',headers=headers, verify=False)
